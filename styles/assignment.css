@@ -92,12 +92,16 @@ ul{
 .my-books{
     padding:130px 230px;
 }
+.my-books h3{
+    color:#ff0000;
+    text-align: center;
+}
 .my-books .container{
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 53px;
+    margin-top: 35px;
     background-color: #e5efeb;
     height: 930px;
 }
