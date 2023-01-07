@@ -1,0 +1,183 @@
+body{
+    margin:0px;
+    font-family: 'Work Sans', sans-serif;
+}
+h1,h2,h3,h4,p{
+    margin:0px;
+}
+ul{
+    padding-left:0;
+    margin:0;
+    list-style-type: none;
+}
+ .btn{
+    padding:21px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color:#005FAC;
+    margin-top:32px;
+    border-radius: 5px;
+    border:none;
+}
+.subtitle-heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+        /* header css */
+.banner{
+    background-image: url('../images/banner/banner3.png');  
+    /* height:808px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner article{
+    padding-left: 954px;
+    padding-top:216px;
+    padding-right: 80px;
+    color:#FFFFFF;
+    text-align: right;
+    padding-bottom: 136px;
+}
+.banner article h1{
+    font-weight: 700;
+    font-size: 65px;
+    /* color:#FFFFFF; */
+    margin-bottom: 32px;
+}
+ .btn{
+    padding:21px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color:#005FAC;
+    margin-top:32px;
+}
+
+        /* failure-prev section css */
+.failure-prev .container{
+    padding:130px 250px;
+    display:flex;
+}
+.failure-list{
+    margin-top:300px;
+    color:#444343;
+    line-height: 26px;
+    padding-left: 163px;
+}
+.failure-list .failure-paragraph{
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+        /* my-plan section css */
+.my-plan{
+    padding:0 230px 130px;
+}
+.my-plan .container{
+    display:flex;
+    justify-content: space-around;
+    margin-top:50px;
+}
+.my-plan .container .title{
+    margin-top:24px;
+    margin-bottom: 13px;
+}
+.my-plan .container p{
+    text-align: center;
+}
+
+            /* .my-books section css */
+            /* I have added this section from my own in assignment */
+.my-books{
+    padding:130px 230px;
+}
+.my-books .container{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 53px;
+    background-color: #e5efeb;
+    height: 930px;
+}
+.my-books .container img{
+    display:block;
+    width:100%;
+    height:auto;
+    object-fit:cover;
+}
+.my-books .container .book-item{
+    width:25%;
+    margin-right: 15px;
+}
+
+        /* call-now section css */
+.call-now{
+    padding:0 230px 130px;
+}
+.call-now .container{
+    background: linear-gradient(to top,rgba(219, 163, 163, 0.9),rgba(237, 205, 100, 0.5)),url('../images/watch.png');
+    padding:59px 8px 36px 608px;
+}
+
+.call-now .container h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color:#0fce85c0;
+}
+
+        /* footer section css */
+footer .container{
+    background-color: #151414;
+    color:#F8F8F8;
+    padding:130px 230px;
+    display:flex;
+    justify-content: space-between;
+}
+footer .w-40{
+    width:40%;
+}
+footer .w-40 h2{
+    font-weight: 700;
+    font-size: 45px;
+}
+footer .w-40 p{
+    margin-top:15px;
+}
+footer .w-40 .social-icon{
+    margin-top: 10px;
+}
+footer .w-40 .social-icon i{
+    margin-right: 7px;
+    
+}
+
+footer .w-30{
+    width:30%;
+}
+footer .w-30 h4{
+    font-weight: 600;
+    font-size: 25px;
+}
+footer .w-30 input{    
+    display:block;
+    padding:12px 20px;
+    border-radius: 6px;
+    background-color:#272525 ;
+    color:#FFFFFF;
+    margin-top: 20px;
+}
+footer .w-30 input[type="text"]{
+    border:1px solid #FFFFFF;    
+}
+footer .w-30 input[type="submit"]{
+    background-color: #005FAC;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top:10px;
+}
+footer .w-30 ::placeholder{
+    color:#F8F8F8;
+}
